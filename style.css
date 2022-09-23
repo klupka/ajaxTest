@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+body{
+    background-color: #2B2118;
+    color: #F7F3E3;
+    font-family: 'Rubik';
+
+}
+/*
+table, th, td {
+    border: 1px solid;
+  }
+*/
+#menuBar{
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    background-color: #4C3A2A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 1300px;
+}
+
+#menuTitle{
+    width: 100%;
+    font-size: x-large;
+    text-align: left;
+    padding-left: 1%;
+    font-weight: bold;
+    min-width: 4em;
+}
+
+#menuBarLink{
+    font-size: large;
+    width: 100%;
+    min-width: 4em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menuLogo{
+    max-width: 3em;
+    min-height: 3em;
+    filter: invert(1);
+
+}
+
+#logoCell{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
