@@ -8,13 +8,13 @@ body{
     font-family: 'Rubik';
 
 }
-/*
+
 table, th, td {
     border: 1px solid;
   }
-*/
+
 #menuBar{
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     padding: 1em;
     background-color: #4C3A2A;
@@ -22,7 +22,7 @@ table, th, td {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 1300px;
 }
-
+/*
 #menuTitle{
     width: 100%;
     font-size: x-large;
@@ -54,3 +54,39 @@ table, th, td {
     margin: 0;
     line-height: 0;
 }
+
+#promoImage1{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+}
+
+#promoImagesTable{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+#promoImageDiv{
+    position: relative;
+}
+
+#promoImageText{
+    width: 50em;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    font-size: x-large;
+  }
+  */

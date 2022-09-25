@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+body{
+    background-color: #2B2118;
+    color: #F7F3E3;
+    font-family: 'Rubik';
+}
+
+/*
+table, th, td {
+    border: 1px solid;
+  }
+*/
+
+#menuBar{
+    /*auto=takes up all available space, up to the max-width of 1200px*/
+    width: auto;
+    max-width: 1200px;
+    /*fixed height*/
+    height: 80px;
+    /*CENTERED*/
+    margin-left: auto;
+    margin-right: auto;
+    /*SHADOW + ROUNDED CORNERS*/
+    background-color: #4C3A2A;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*LEFT (of logoImg) AND RIGHT (of Links) PADDING*/
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+
+
+#menuTitle{
+    font-weight: 900;
+    font-size: x-large;
+    width: auto;
+    padding-right: 30px;
+}
+
+#menuBarLink{
+    font-weight: 900;
+    text-align: center;
+    overflow: hidden; 
+    width: 1%;
+    white-space: nowrap;
+    font-size: larger;
+}
+
+#seperator{
+    text-align: center;
+    width: 50px;
+    font-weight: 900;
+}
+
+#menuLogo{
+    /*space around logo so its not touching border*/
+    padding: 10px;
+    /*FIXED SIZE SO IT DOESNT WARP*/
+    height: 40px;
+    width: 40px;
+    /*INVERT COLOR TO WHITE*/
+    /*filter: invert(1);*/
+}
+
+#logoCell{
+    width: 1%;
+    white-space: nowrap;
+    
+}
+
+#promoImage1{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#promoImgCell{
+    
+}
+
+#promoImagesTable{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-spacing: 10px 0;
+}
+
+#promoImageDiv{
+    position: relative;
+}
+
+#promoImageText{
+
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    font-size: x-large;
+  }
+  
+#pageSeparator{
+    margin-top: 25px;
+    width: auto;
+    max-width: 1000px;
+    /*CENTERED*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #88684b;
+}
+
+  */
