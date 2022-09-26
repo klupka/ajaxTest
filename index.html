@@ -14,8 +14,8 @@
     <script>
         
         $(document).ready(function(){
-            $("#btn").click(function(){
-                $("#test").load("data.txt");
+            $("#navLink").click(function(){
+                $("#homePage").load("data.txt");
             });
         });
 
@@ -37,50 +37,55 @@
                 <img id="menuLogo" src="images/keycap2.png" alt="Logo">
             </td>
             <td id="menuTitle">
-                WeaselKeys
+                <a id="navLink" href="">Monari</a>
             </td>
             <td id="menuBarLink">
-                Home
+                <a id="navLink" href="">Home</a>
             </td>
             <td id="seperator" style="color:#88684b">
                 |
             </td>
             <td id="menuBarLink">
-                Browse
+                <a id="navLink" href="">Browse</a>
             </td>
             <td id="seperator" style="color:#88684b">
                 |
             </td>
             <td id="menuBarLink">
-                Support
+                <a id="navLink" href="">Support</a>
             </td>
             <td id="seperator" style="color:#88684b">
                 |
             </td>
             <td id="menuBarLink">
-                Account
+                <a id="navLink" href="">Account</a>
             </td>
 
         </tr>
     </table>
-    <table id="promoImagesTable">
-        <tr>
-            <td>
-                <div id="promoImageDiv">
-                    <img id="promoImage1" style=" height: 400px; object-fit: cover;" src="images/dotsKeyboard.png" alt="Promotional Keyboard">
-                    <div class="bottom-left">GMK Dots</div>
-                </div>
-            </td>
-            <td id="promoImgCell">
-                <div id="promoImageDiv">
-                    <img id="promoImage1" style=" height: 400px; object-fit: cover;" src="images/orange.png" alt="Promotional Keyboard">
-                    <div class="bottom-left">EPBT DOLCH ORANGE</div>
-                </div>
-            </td>
-        </tr>
-    </table>
 
-    <hr id="pageSeparator">
 
+
+    <div id="homePage">
+
+        <table id="promoImagesTable">
+            <tr>
+                <td>
+                    <div id="promoImageDiv">
+                        <img id="promoImage1" style=" height: 400px; object-fit: cover;" src="images/dotsKeyboard.png" alt="Promotional Keyboard">
+                        <div class="bottom-left">GMK Dots</div>
+                    </div>
+                </td>
+                <td id="promoImgCell">
+                    <div id="promoImageDiv">
+                        <img id="promoImage1" style=" height: 400px; object-fit: cover;" src="images/orange.png" alt="Promotional Keyboard">
+                        <div class="bottom-left">EPBT DOLCH ORANGE</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr id="pageSeparator">
+
+    </div>
 </body>
 </html>

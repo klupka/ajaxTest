@@ -41,7 +41,16 @@ table, th, td {
     padding-right: 30px;
 }
 
+#menuBarLink:hover{ -webkit-transform: scale(1.2); }
+
+#navLink{
+    text-decoration: none; 
+    color: #F7F3E3;
+}
+
+
 #menuBarLink{
+    
     font-weight: 900;
     text-align: center;
     overflow: hidden; 
